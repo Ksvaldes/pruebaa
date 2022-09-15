@@ -2,7 +2,7 @@
 import {Crearheader} from "./componentes/nav.js";
 Crearheader();
 
-/****CONECCIÓN DE LA HOME** */
+/****CONECCIÓN DE LA HOME****/
 import { Crearfondo } from "./componentes/banner.js";
 Crearfondo();
 
