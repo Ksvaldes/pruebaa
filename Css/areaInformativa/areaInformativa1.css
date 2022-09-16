@@ -4,7 +4,6 @@
         height: auto;
         justify-content: center;
         align-items: center;
-        background-color: var(--blanco);
         margin-top: 30rem;
     }
     .area{
@@ -45,35 +44,27 @@
         text-align:justify;
     }
     .largo{
-        height: 70.5%;
-        left: 0px;
-        top: 1452px;
-        border-radius: 0px;
-        background-image: url("https://i.postimg.cc/TPg019Gc/manchas-2-1.png");
-    }
-    .VectorAmarillo{
-        width: 100%;
-
-        height: 60rem;
-
+        background-image: url("https://i.postimg.cc/xCcnTk2p/amarill.png");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .CuadroImg{
-        width: 90%;
-        height:54.5%;
-        margin-top: 0.5%;
-        padding: 0 2%;
+        width: 85%;
+        height:40rem;
+        margin-top: 8%;
         position: absolute;
         display:flex;
         flex-direction: row;
+        justify-content: space-between;
+        background-color: aqua;
     }
     .ImgFrente{
-
-        width: 60rem;
-        height: 60rem;
+        width: 100%;
+        background-color: rgb(8, 62, 62);
     }
     .ImgFrente2{
-        width: 60rem;
-        height: 52rem;
+        width: 100%;
+        background-color: blue;
 
         
     }
@@ -84,7 +75,7 @@
         padding: 1.5%;
         margin: auto;
         font-family: 'Didact Gothic', sans-serif;
-        margin-top: 58rem;
+        margin-top: 53rem;
 
     }    
 }
