@@ -7,12 +7,10 @@
     height: auto;
     margin: auto;
     padding-top: 2rem;
-    padding-bottom: 13.8rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
     }
     /*Cuadro rojo*/
     .ventana{
@@ -68,19 +66,32 @@
     text-align: left;
     
 }
-        /*
+/*los otros dos cuadros*/
+.dos_cuadros{
+    width: 100%;
+    height: auto;
+    margin-bottom: 5rem;
 
-    .padreFooter{
-        display: flex;
-        flex-direction:row-reverse;
-        justify-content: center;
-        align-items: center;
-       
-    }
-    
+
+}    
+.padreFooter{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+   
+}
+/*amarillo*/
     .cuadro{
-        width: 28rem;
-        height: 18rem;
+        height: 30rem;
+        width: 40rem;
+        left: 83px;
+        top: 2764px;
+        border-radius: 25px;
+        padding:1.5%;
+        
         background-color: var(--amarillo);
         border-radius: 2rem 2rem 2rem 2rem;
         box-shadow:0px 5px 10px -2px #6e6e6e;
@@ -88,47 +99,51 @@
         -webkit-box-shadow:0px 5px 10px -2px #6e6e6e;
     
     }
-    
     .cuadro_barra{
-        width: 28rem;
-        height: 3rem;
-        background-color:var(--blanco);
-        border-radius: 2rem 2rem 2rem 2rem;
-    }
-    
-    .cuadro_titulo{
-        margin-left: 3rem;
-    }
-    
-    .cuadro_parrafo{
-        font-size: 1.5rem;
-        margin-top: 3rem;
-        margin-left: 1rem;
-    }
-    
-    .cuadrover{
-        width: 28rem;
-        height: 16rem;
-        font-size: 1.2rem;
-        
-        margin-left: 50rem;
-        background-color: var(--verde);
-        
-        margin-top: -12rem;
+        height: 60px;
+        width: 100%;
+        margin-bottom: 5%;
+        border-radius: 10px;
+        background-color: var(--blanco);
         display: flex;
         justify-content: center;
-        flex-direction: column;
+        align-items: center;
+    }
+    /*verde*/
+    .cuadrover{
+        height: 30rem;
+        width: 40rem;
+        left: 718px;
+        top: 2764px;
+        border-radius: 25px;
+        margin-left: 2%;
+        padding: 4rem;
+
+        
+        background-color: var(--verde);
         border-radius: 2rem 2rem 2rem 2rem;
         box-shadow:0px 5px 10px -2px #6e6e6e;
         -moz-box-shadow:0px 5px 10px -2px #6e6e6e;
         -webkit-box-shadow:0px 5px 10px -2px #6e6e6e;
     }
     .cuadrover_titulo1{
-        margin-left: 3rem;
-        font-size: 1.6rem;
-        
-        
-    }*/
+        font-family: Fredoka One;
+        font-size: 27px;
+        font-weight: 400;
+        line-height: 48px;
+        letter-spacing: 0em;
+        text-align: left;    
+    }
+    .cuadro_parrafo{
+        font-size: 20px;
+        text-align: justify;
+    }
+    .lista li{
+list-style: none;
+        font-size: 25px;
+        text-align: justify;
+    }
+    
     @media only screen and (max-width:37.5rem) {
         .padreFooter{
             max-width: 36.4rem;
