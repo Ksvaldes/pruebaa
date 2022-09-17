@@ -47,35 +47,42 @@
         background-image: url("https://i.postimg.cc/xCcnTk2p/amarill.png");
         background-repeat: no-repeat;
         background-size: cover;
+        padding-bottom: 20rem;
     }
     .CuadroImg{
         width: 85%;
+        margin-right: 200rem;
         height:40rem;
+        margin: auto;
         margin-top: 8%;
-        position: absolute;
         display:flex;
         flex-direction: row;
         justify-content: space-between;
-        background-color: aqua;
+
     }
     .ImgFrente{
-        width: 100%;
-        background-color: rgb(8, 62, 62);
+        width: 50%;
     }
     .ImgFrente2{
-        width: 100%;
-        background-color: blue;
+        width: 50%;
 
         
     }
     .TextoEncima{
         width: 90%;
-        font-size: 28px;
         height: auto;
         padding: 1.5%;
         margin: auto;
         font-family: 'Didact Gothic', sans-serif;
-        margin-top: 53rem;
+        margin-top: -15rem;
 
-    }    
+    }  
+    .parrafo2{
+        font-family: 'Didact Gothic', sans-serif;
+        font-size: 27px;
+        font-weight: 400;
+        line-height: 37px;
+        letter-spacing: 0em;
+        text-align:justify;
+    }  
 }
