@@ -20,7 +20,7 @@ header.innerHTML =
 <div class="linea"></div>
 <div class="linea"></div>
 <div class="linea"></div>
-</button>-->
+</button>
 `;
 
 export function Crearheader(){

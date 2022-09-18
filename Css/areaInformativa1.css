@@ -86,3 +86,52 @@
         text-align:justify;
     }  
 }
+@media screen and  (max-width:37.5rem){
+    .Info{
+       margin-top: 5rem; 
+    }
+    
+    .area{
+        width: 100%;
+        margin-top: -20px; 
+       }
+
+    .Img1{
+    display: none;    
+}
+    .paraTexto{
+        width: 90rem;
+        margin: auto;
+        background-color: var(--blanco);
+        border-radius: 23px 23px 0px 0px;
+
+    }
+    .titulo{
+        font-size: 24px;
+    }
+    .Info .parrafo{
+        font-size: 19px;
+    }
+    .largo{
+        background-image: none;
+    }
+
+
+    .CuadroImg{
+        flex-direction: column-reverse;
+        width: 70rem;
+        height: 70rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .margen{
+        margin-top: 36rem;
+    }
+    .margen2{
+        margin-top: 30rem;
+    }
+    .Info .TextoEncima{
+        margin-top: 29rem;
+
+    }
+}

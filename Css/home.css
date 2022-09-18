@@ -38,3 +38,23 @@ body{
     width: 100%;
 }
 
+@media screen and  (max-width:37.5rem){
+
+.vector{
+        width: 100%;
+        height: 400px;
+}
+.titulo1{
+    width: 0%;
+    display: none;   
+}
+.la-img{
+    width: 1300rem;
+    height: 100%;
+    margin-left: -20%;
+}
+.cocina{
+    width: 38.4rem;
+}
+
+}
