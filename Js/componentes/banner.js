@@ -8,7 +8,7 @@ back.innerHTML =
 
 <!--ESTE ES EL HEADER-->
 <header id="header" class="header">
-    <div class="general">
+    <div class="menu_principal">
         <div class="para_img">
             <img src="./img/healthy-way-logo 1.png" class="logo">
         </div>

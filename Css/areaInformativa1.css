@@ -18,11 +18,12 @@
     }
     .paraTexto{
         width: 60%;
-        padding: 4.5%;
+        padding: 4%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
     }
 
     .titulo{
@@ -42,12 +43,14 @@
         line-height: 37px;
         letter-spacing: 0em;
         text-align:justify;
+
     }
     .largo{
         background-image: url("https://i.postimg.cc/xCcnTk2p/amarill.png");
         background-repeat: no-repeat;
         background-size: cover;
         padding-bottom: 20rem;
+
     }
     .CuadroImg{
         width: 85%;
@@ -59,19 +62,22 @@
         flex-direction: row;
         justify-content: space-between;
 
+
     }
     .ImgFrente{
         width: 50%;
     }
     .ImgFrente2{
         width: 50%;
-
-        
+    }
+    .img2_visible{
+        display: none;
     }
     .TextoEncima{
         width: 90%;
         height: auto;
-        padding: 1.5%;
+        padding: 1%;
+
         margin: auto;
         font-family: 'Didact Gothic', sans-serif;
         margin-top: -15rem;
@@ -88,12 +94,12 @@
 }
 @media screen and  (max-width:37.5rem){
     .Info{
-       margin-top: 5rem; 
+       margin-top: 2rem; 
     }
     
     .area{
         width: 100%;
-        margin-top: -20px; 
+        margin-top: -40px; 
        }
 
     .Img1{
@@ -109,29 +115,37 @@
     .titulo{
         font-size: 24px;
     }
-    .Info .parrafo{
+    .Info .parrafo, .parrafo2{
         font-size: 19px;
     }
     .largo{
         background-image: none;
     }
-
-
     .CuadroImg{
         flex-direction: column-reverse;
-        width: 70rem;
-        height: 70rem;
+        background-color: aqua;
+        width: 95%;
+        height: auto;
         justify-content: center;
         align-items: center;
     }
-    .margen{
-        margin-top: 36rem;
-    }
-    .margen2{
-        margin-top: 30rem;
-    }
     .Info .TextoEncima{
-        margin-top: 29rem;
-
+background-color: blue;
     }
+    .img2{
+        display: none;
+    }
+    .ImgFrente2{
+        width: 80%;
+    }
+    .img2_visible{
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: aqua;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
