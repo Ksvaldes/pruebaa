@@ -8,5 +8,5 @@ import {AñadirInfo} from "./componentes/areaInformativa.js";
 AñadirInfo();
 
 /*MUESTRA PARTE DE BRYAN HERNADEZ*/
-import {CrearFooter} from "./componentes/footer.js";
+import {CrearFooter} from "./componentes/infoOlla.js";
 CrearFooter();
