@@ -1,6 +1,5 @@
 export let footer = document.createElement("div");
 footer.innerHTML = `
-
 <section class="infofood">
 <div class="infofood">
     <div class="ventana">
@@ -13,7 +12,6 @@ footer.innerHTML = `
                 (CONGA), con el apoyo de Nutrición Centro América y Panamá(INCAP).
                 </p>
         </div>
-
     </div>
     <div class="derecha">
         <img  class="img_personaje" src="./img/personaje de la pared 1.png" alt="">
@@ -42,7 +40,6 @@ footer.innerHTML = `
        </ul>
     </div>
 </section>
-
 `;
 
 

@@ -4,22 +4,24 @@
     padding: 0px;
     text-decoration: none;
     box-sizing: border-box;
-    
     font-size: 17px;
     font-family: 'Didact Gothic', sans-serif;;
 }
 .sect{
     width: 100%;
-    height: 350px;
+    height: auto;
 }
 .header{
     width: 100%;
-    height: 10rem;
+    height: auto;
     padding: 16px; 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    background-image: url(../img/Manchas\ 1\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .general{
     width:97vw;
