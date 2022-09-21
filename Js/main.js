@@ -1,5 +1,6 @@
 /**CONEXIONDE HEADER YASMIN  */
-/****CONECCIÓN DE LA HOME****/
+/****CONECCIÓN DE LA HOME**/
+
 import { Crearfondo } from "./componentes/banner.js";
 Crearfondo();
 
@@ -10,3 +11,4 @@ AñadirInfo();
 /*MUESTRA PARTE DE BRYAN HERNADEZ*/
 import {CrearFooter} from "./componentes/infoOlla.js";
 CrearFooter();
+

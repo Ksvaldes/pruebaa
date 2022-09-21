@@ -2,8 +2,8 @@
 /**ESTRUCTURA DE HAEDER* */
 /**ESTRUCTURA DE HOME* */
 
-export let back = document.createElement("div");
-back.innerHTML = 
+export let menu = document.createElement("div");
+menu.innerHTML = 
 `
 
 <!--ESTE ES EL HEADER-->
@@ -40,7 +40,7 @@ back.innerHTML =
 
 `;
 
-export function Crearfondo(){
-    let div_sect = document.querySelector("#sect");
-    div_sect.appendChild(back);
+export function Crearmenu(){
+    let div_header = document.querySelector("#header");
+    div_header.appendChild(menu);
 }

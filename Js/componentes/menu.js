@@ -1,11 +1,8 @@
 /***NO CREAR MAS COSAS EN ESTE DOCUMENTO ***/
 /**ESTRUCTURA DE HAEDER* */
-/**ESTRUCTURA DE HOME* */
-
-export let back = document.createElement("div");
-back.innerHTML = 
+export let menu = document.createElement("div");
+menu.innerHTML = 
 `
-
 <!--ESTE ES EL HEADER-->
 <header id="para_header" class="para_header">
     <div class="menu_principal">
@@ -22,25 +19,15 @@ back.innerHTML =
             </ul>
         </div>
     </div>
-    <!--<button class="boton">
-    <div class="linea"></div>
-    <div class="linea"></div>
-    <div class="linea"></div>
-    </button>-->
-    
-<!--COMIENZA HOME-->        
-<section class="vector">
-    <!--<div id="Menu-interno"></div>-->
-    <div class="el-titulo"><h1 class="titulo1"> Aprende a <br> seguir un <br> camino sano </h1></div>
-    <div class="la-img"><img src="./img/Cocina 1.png" alt="" class="cocina"></div>
-</section>
+    <div class="titulo_proteina">
+        <h2 class="tituloParaProteina">Proteinas</h2>
+    </div>
 </header>
 <!--AQUÍ TERMINA EL HEADER-->
-   
 
 `;
 
-export function Crearfondo(){
-    let div_sect = document.querySelector("#sect");
-    div_sect.appendChild(back);
+export function Crearmenu(){
+    let div_menu = document.querySelector("#header");
+    div_menu.appendChild(menu);
 }
